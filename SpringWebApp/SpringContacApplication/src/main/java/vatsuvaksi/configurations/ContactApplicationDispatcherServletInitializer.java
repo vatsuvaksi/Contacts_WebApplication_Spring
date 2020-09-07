@@ -11,15 +11,13 @@ public class ContactApplicationDispatcherServletInitializer extends AbstractAnno
 		
 		// TODO Auto-generated method stub
 		return new Class[] {SpringRootConfig.class};
-		// This method returns all the classes in which BUSINESS layer is implemented to implement all the beans inside these class
-		
-		
+		// This method returns all the classes in which BUSINESS layer is implemented to implement all the beans inside these class	
 	}
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		// This method returns all the classes in which WEB layer is implemented to implement all the beans inside these classes
-		return new Class[] {SpringWebConfig.class} ;
+		return new Class[] {SpringWebConfig.class};
 	}
 
 	@Override

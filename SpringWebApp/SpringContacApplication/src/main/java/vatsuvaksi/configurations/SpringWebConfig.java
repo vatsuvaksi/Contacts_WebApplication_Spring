@@ -21,7 +21,7 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
 		// TODO Auto-generated method stub
 		//This method is used to handle static resources such as Images js,css files etc
 		super.addResourceHandlers(registry);
-		registry.addResourceHandler("/static/**").addResourceLocations("/static/");
+	//registry.addResourceHandler("/static/**").addResourceLocations("/static/");
 	}
 	
 	@Bean
