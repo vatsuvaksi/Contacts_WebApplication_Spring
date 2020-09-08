@@ -1,6 +1,4 @@
 package vatsuvaksi.dao;
-import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.HashMap;
 import java.util.List;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

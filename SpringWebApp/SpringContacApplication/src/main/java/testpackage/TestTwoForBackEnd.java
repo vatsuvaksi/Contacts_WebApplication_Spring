@@ -15,11 +15,11 @@ public class TestTwoForBackEnd {
 		//user u= new user("Shrey Mishra","789678","shrey.mishra19@gmail.com","blah blah", "Shreeyyy", "passme",2,1);
 		user u = new user();
 		u.setAddress("21dcs");
-		u.setEmail("Shrey.mis@gmail.com");
-		u.setLoginName("Shreeyy");
+		u.setEmail("naimis@l.com");
+		u.setLoginName("naimish");
 		u.setLoginStatus(1);
-		u.setName("Shrey");
-		u.setPassword("passme");
+		u.setName("naijms");
+		u.setPassword("passmeplz");
 		u.setPhone("321");
 		u.setRole(2);
 	

@@ -40,8 +40,9 @@ public class contactDAOimplementation extends BaseDAO implements ContactDAO {
 
 
 	public void delete(contact c) {
-		// TODO Auto-generated method stub\
-	  Integer i=new Integer(c.getContactId());
+		
+	  @SuppressWarnings("deprecation")
+	Integer i=new Integer(c.getContactId());
 	  deleteById(i);
 	}
 
