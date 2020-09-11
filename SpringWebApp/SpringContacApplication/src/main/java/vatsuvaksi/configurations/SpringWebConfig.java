@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @SuppressWarnings("deprecation")
 @Configuration
-@ComponentScan(basePackages = "vatsuvaksi")
+@ComponentScan(basePackages = "vatsuvaksi.service,vatsuvaksi.controller,vatsuvaksi.dao")
 @EnableWebMvc
 public class SpringWebConfig extends WebMvcConfigurerAdapter {
   //I have created this class for Model View Controller Configurations 

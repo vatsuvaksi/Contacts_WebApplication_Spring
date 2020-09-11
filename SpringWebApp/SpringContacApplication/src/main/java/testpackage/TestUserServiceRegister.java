@@ -10,7 +10,7 @@ public class TestUserServiceRegister {
 
 	public static void main(String[] args) {
         ctx = new AnnotationConfigApplicationContext(SpringRootConfig.class);
-        userService userService=(userService)ctx.getBean(userServiceImplementation.class);
+        userService userService=(userService)ctx.getBean(userService.class);
         //TODO: the user details will be taken from User-Reg-Form
         user u=new user();
         u.setName("Nitin");

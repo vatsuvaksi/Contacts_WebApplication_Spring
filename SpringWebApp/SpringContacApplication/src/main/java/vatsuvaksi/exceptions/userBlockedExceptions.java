@@ -10,7 +10,7 @@ public class userBlockedExceptions extends Exception {
 		// TODO Auto-generated constructor stub
 	}
 	//This is with error description and the above one is without one This will be called when there's an exception in login 
-	userBlockedExceptions(String errorMessage)
+	public userBlockedExceptions(String errorMessage)
 	{
 		super(errorMessage);
 	}

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TestController {
 //Not working FIx before this weekend;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	 @RequestMapping("/test/hello")
+	 @RequestMapping(value= "/test/hello")
 	 public String helloWorld()
 	 
 	 {
