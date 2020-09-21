@@ -30,7 +30,7 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
 		// this method is overriden to set the logical view to internal resources.
 		// this ensures that out web-inf folder is being accessed by the source code and not by the external browsers
 		InternalResourceViewResolver vr= new InternalResourceViewResolver();
-		 vr.setPrefix("/webapp/WEB-INF/view/");
+		 vr.setPrefix("/WEB-INF/view/");
 	        vr.setSuffix(".jsp");
 	        vr.setViewClass(JstlView.class);
 	        vr.setExposeContextBeansAsAttributes(true);
